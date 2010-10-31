@@ -3,7 +3,13 @@
 					<ul>
 						<li>
 							<div id="search" >
-								<form method="POST" action="<?php echo site_url();?>/lib_melihatlihat/search/<?php echo $now;?>">
+								<form method="POST" action="
+								<?php echo site_url();?>/lib_melihatlihat/search/
+								<?php 
+								if ($now == ""){ echo "home";}
+								else echo $now;
+								?>
+								">
 									<div>
 										<input type="text" name="s" id="search-text" value="" />
 										<input type="submit" id="search-submit" value="GO" />

@@ -12,7 +12,7 @@ class Lib_melihatlihat extends Controller {
 		echo "Hallo aku lib Melihatlihat";
 	}
 	
-	function index($location)
+	function search($location)
 	{
 		echo "Hallo aku lib Melihatlihat";
 	}
