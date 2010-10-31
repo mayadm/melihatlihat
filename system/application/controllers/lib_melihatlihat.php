@@ -11,4 +11,10 @@ class Lib_melihatlihat extends Controller {
 	{
 		echo "Hallo aku lib Melihatlihat";
 	}
+	
+	function index($location)
+	{
+		echo "Hallo aku lib Melihatlihat";
+	}
+	
 }

@@ -5,6 +5,7 @@
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>AM With Pig</title>
+<link rel="shortcut icon" href="<?php echo base_url()?>favicon.png">
 <link href="<?php echo base_url()?>style/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="<?php echo base_url()?>style/redmond/jquery-ui.css" rel="stylesheet" type="text/css" media="screen" />
 <script src="<?php echo base_url()?>style/jquery.js" type="text/javascript"></script>

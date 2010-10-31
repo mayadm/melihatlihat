@@ -3,7 +3,7 @@
 					<ul>
 						<li>
 							<div id="search" >
-								<form method="get" action="#">
+								<form method="POST" action="<?php echo site_url();?>/lib_melihatlihat/search/<?php echo $now;?>">
 									<div>
 										<input type="text" name="s" id="search-text" value="" />
 										<input type="submit" id="search-submit" value="GO" />
