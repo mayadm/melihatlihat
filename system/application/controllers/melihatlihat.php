@@ -46,6 +46,22 @@ class Melihatlihat extends Controller {
 		$this->load->view('sidebar');
 		$this->load->view('footer');
 	}
+        
+        function login()
+	{
+		$this->load->view('header');
+		$this->load->view('login');
+		$this->load->view('sidebar');
+		$this->load->view('footer');
+	}
+
+        function error()
+	{
+		$this->load->view('header');
+		$this->load->view('error');
+		$this->load->view('sidebar');
+		$this->load->view('footer');
+	}
 }
 
 /* End of file welcome.php */

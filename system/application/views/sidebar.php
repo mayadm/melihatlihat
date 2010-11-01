@@ -22,7 +22,9 @@
 						   <?php 
 						   if ($now == ""){
 						   $this->load->view("sidebar/home");
-						   } else $this->load->view("sidebar/$now");
+						   }else if( $now == "login" || $now == "error"){ 
+                                                    echo "<p></p>";
+                                                   } else $this->load->view("sidebar/$now");
 						   ?>
 						</li>
 						
